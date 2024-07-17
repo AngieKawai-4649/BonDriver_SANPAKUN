@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\BonDriver">
+      <UniqueIdentifier>{c2f7e89e-d910-4aa2-b313-fc25a85cfc77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Common">
+      <UniqueIdentifier>{9e62b553-8110-4b94-9e9f-b16d5776bfec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Device">
+      <UniqueIdentifier>{66823ed7-38d6-417b-bfce-ac07f2d28f28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\BonDriver">
+      <UniqueIdentifier>{33b2af25-318d-460d-89bb-9c28960bf47c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Common">
+      <UniqueIdentifier>{ffc9d75e-2046-4985-8a32-064b7b250a74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\Device">
+      <UniqueIdentifier>{5f894632-2798-462a-b574-a73b65e78694}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\aribb25">
+      <UniqueIdentifier>{df66eb87-c0a7-48ce-bede-c312563e8cda}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="BonDriver\inc\BonTuner.h">
+      <Filter>ヘッダー ファイル\BonDriver</Filter>
+    </ClInclude>
+    <ClInclude Include="BonDriver\inc\IBonDriver.h">
+      <Filter>ヘッダー ファイル\BonDriver</Filter>
+    </ClInclude>
+    <ClInclude Include="BonDriver\inc\IBonDriver2.h">
+      <Filter>ヘッダー ファイル\BonDriver</Filter>
+    </ClInclude>
+    <ClInclude Include="BonDriver\inc\ParseChSet.h">
+      <Filter>ヘッダー ファイル\BonDriver</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\inc\message.h">
+      <Filter>ヘッダー ファイル\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\inc\stdafx.h">
+      <Filter>ヘッダー ファイル\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\inc\StringUtil.h">
+      <Filter>ヘッダー ファイル\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\inc\targetver.h">
+      <Filter>ヘッダー ファイル\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\inc\Util.h">
+      <Filter>ヘッダー ファイル\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Device\inc\em287x.h">
+      <Filter>ヘッダー ファイル\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="Device\inc\em287x_priv.h">
+      <Filter>ヘッダー ファイル\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="Device\inc\em287x_usb.h">
+      <Filter>ヘッダー ファイル\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="Device\inc\mxl136.h">
+      <Filter>ヘッダー ファイル\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="Device\inc\osdepend.h">
+      <Filter>ヘッダー ファイル\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="Device\inc\tc90522.h">
+      <Filter>ヘッダー ファイル\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="Device\inc\tda20142.h">
+      <Filter>ヘッダー ファイル\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="Device\inc\tsbuff.h">
+      <Filter>ヘッダー ファイル\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="Device\inc\tsthread.h">
+      <Filter>ヘッダー ファイル\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="Device\inc\types_u.h">
+      <Filter>ヘッダー ファイル\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="Device\inc\usbdevfile.h">
+      <Filter>ヘッダー ファイル\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="Device\inc\usbops.h">
+      <Filter>ヘッダー ファイル\Device</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="aribb25\inc\IB25Decoder.h">
+      <Filter>ヘッダー ファイル\aribb25</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="BonDriver\src\BonTuner.cpp">
+      <Filter>ソース ファイル\BonDriver</Filter>
+    </ClCompile>
+    <ClCompile Include="BonDriver\src\dllmain.cpp">
+      <Filter>ソース ファイル\BonDriver</Filter>
+    </ClCompile>
+    <ClCompile Include="BonDriver\src\ParseChSet.cpp">
+      <Filter>ソース ファイル\BonDriver</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\src\message.c">
+      <Filter>ソース ファイル\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\src\stdafx.c">
+      <Filter>ソース ファイル\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\src\stdafx2.cpp">
+      <Filter>ソース ファイル\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\src\StringUtil.cpp">
+      <Filter>ソース ファイル\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Common\src\Util.cpp">
+      <Filter>ソース ファイル\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Device\src\em287x.c">
+      <Filter>ソース ファイル\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="Device\src\em287x_usb.c">
+      <Filter>ソース ファイル\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="Device\src\mxl136.c">
+      <Filter>ソース ファイル\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="Device\src\osdepend.c">
+      <Filter>ソース ファイル\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="Device\src\tc90522.c">
+      <Filter>ソース ファイル\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="Device\src\tda20142.c">
+      <Filter>ソース ファイル\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="Device\src\tsthread.c">
+      <Filter>ソース ファイル\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="Device\src\usbdevfile.cpp">
+      <Filter>ソース ファイル\Device</Filter>
+    </ClCompile>
+    <ClCompile Include="Device\src\usbops.c">
+      <Filter>ソース ファイル\Device</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="BonDriver_SANPAKUN.rc">
+      <Filter>リソース ファイル</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
